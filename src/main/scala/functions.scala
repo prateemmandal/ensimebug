@@ -30,7 +30,31 @@ object DataStructures {
   val flsum = numlistflzeroprimed(_ + _)
   val frprod = numlistfroneprimed(_ * _)
   val flprod = numlistfloneprimed(_ * _)
-  }
 }
 
+/**
+ * scala> Loading c:\Users\pmandal\Scala\ensimebug\src\main\scala\functions.scala...
+ * defined object Functional
+ * <console>:43: error: type mismatch;
+ * found   : DataStructures.Cons[Int]
+ * required: DataStructures.List[?]
+ * val numlistfrzeroprimed = Functional.foldr(numlist, 0)_
+ * ^
+ * <console>:44: error: type mismatch;
+ * found   : DataStructures.Cons[Int]
+ * required: DataStructures.List[?]
+ * val numlistfroneprimed = Functional.foldr(numlist, 1)_
+ * ^
+ * <console>:45: error: type mismatch;
+ * found   : DataStructures.Cons[Int]
+ * required: DataStructures.List[?]
+ * val numlistflzeroprimed = Functional.foldl(numlist, 0)_
+ * ^
+ * <console>:46: error: type mismatch;
+ * found   : DataStructures.Cons[Int]
+ * required: DataStructures.List[?]
+ * val numlistfloneprimed = Functional.foldl(numlist, 1)_
+ * ^
+ *
+ */
 
