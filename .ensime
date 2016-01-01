@@ -1,0 +1,22 @@
+(
+ :root-dir "C:\\Users\\pmandal\\Scala\\ensimebug"
+ :cache-dir "C:\\Users\\pmandal\\Scala\\ensimebug\\.ensime_cache"
+ :name "root"
+ :java-home "C:\\Program Files\\Java\\jdk1.8.0_66"
+ :java-flags ("-Djline.WindowsTerminal.directConsole=false" "-Dsbt.log.format=true" "-XX:MaxPermSize=256m" "-XX:ReservedCodeCacheSize=128m" "-Xmx512M" "-Xss2m")
+ :reference-source-roots ("C:\\Program Files\\Java\\jdk1.8.0_66\\src.zip")
+ :scala-version "2.11.7"
+ :compiler-args ("-Xfuture" "-Xlint" "-Yinline-warnings" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Ywarn-unused-import" "-deprecation" "-feature")
+ :formatting-prefs nil
+ :subprojects ((
+   :name "root"
+   :source-roots ("C:\\Users\\pmandal\\Scala\\ensimebug\\src\\main\\java" "C:\\Users\\pmandal\\Scala\\ensimebug\\src\\main\\scala" "C:\\Users\\pmandal\\Scala\\ensimebug\\src\\test\\java" "C:\\Users\\pmandal\\Scala\\ensimebug\\src\\test\\scala")
+   :targets ("C:\\Users\\pmandal\\Scala\\ensimebug\\target\\scala-2.11\\classes")
+   :test-targets ("C:\\Users\\pmandal\\Scala\\ensimebug\\target\\scala-2.11\\test-classes")
+   :depends-on-modules nil
+   :compile-deps ("C:\\Users\\pmandal\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.7.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("C:\\Users\\pmandal\\.ivy2\\cache\\org.scala-lang\\scala-library\\docs\\scala-library-2.11.7-javadoc.jar" "C:\\Users\\pmandal\\Scala\\ensimebug\\target\\scala-2.11\\ensimebug_2.11-0.1-javadoc.jar")
+   :reference-source-roots ("C:\\Users\\pmandal\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.11.7-sources.jar")))
+)
